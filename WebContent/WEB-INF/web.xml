@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>PayPalEC</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+  	<param-name>authtoken</param-name>
+  	<param-value></param-value>
+  </context-param>
+  <context-param>
+  	<param-name>posturl</param-name>
+  	<param-value></param-value>
+  </context-param>
+  <context-param>
+  	<param-name>business</param-name>
+  	<param-value></param-value>
+  </context-param>
+  <context-param>
+  	<param-name>returnurl</param-name>
+  	<param-value>http://localhost:8080/PayPalEC/paypalcontroller/</param-value>
+  </context-param>
+  <servlet>
+    <description></description>
+    <display-name>paypalcontroller</display-name>
+    <servlet-name>paypalcontroller</servlet-name>
+    <servlet-class>controller.paypalcontroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>paypalcontroller</servlet-name>
+    <url-pattern>/paypalcontroller</url-pattern>
+  </servlet-mapping>
+</web-app>

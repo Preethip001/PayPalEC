@@ -1,0 +1,5 @@
+<dependency>
+    <groupId>com.paypal.sdk</groupId>
+    <artifactId>merchantsdk</artifactId>
+    <version>LATEST</version>
+</dependency>
