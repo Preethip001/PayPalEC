@@ -21,7 +21,7 @@
 		<table>
 		<tr>
 		
-		<td>Products<input type="text" name="item_name" value="" /></td>
+		<td>Products<input style="border: none;" type="text" name="item_name" value="" /></td>
 		<td><input type="text" name="item_naumber" value="item_number" /></td>
 		<td><input type="text" name="amount" value="amount" /></td>
 		<td><input type="text" name="quantity" value="quantity" /></td>

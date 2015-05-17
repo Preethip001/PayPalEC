@@ -37,7 +37,7 @@
 	'------------------------------------
 	*/
 
-	String returnURL = "http://localhost:8080/PayPalEC/PaymentConfirmation.jsp";
+	String returnURL = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath()+"/PaymentConfirmation.jsp";
 
 	/*
 	'------------------------------------
@@ -47,7 +47,7 @@
 	' This is set to the value entered on the Integration Assistant 
 	'------------------------------------
 	*/
-	String cancelURL = "http://localhost:8080/PayPalEC/PaymentCancel.jsp";
+	String cancelURL = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+request.getContextPath()+"/PaymentCancel.jsp";
 
 	/*
 	'------------------------------------

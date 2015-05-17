@@ -13,12 +13,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/jasper.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/jasper-el.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/jsp-api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/catalina.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/catalina-ant.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/catalina-ha.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Preeth/lib/catalina-tribes.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
